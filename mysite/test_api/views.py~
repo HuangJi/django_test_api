@@ -1,0 +1,14 @@
+from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
+
+def get_user_address(request):
+    response = {
+            'id': 1,
+            'content': 'come on!',
+            'location': 'Taipei',
+            'likes': 193,
+            'address': '1K4PamQz5xgsH8VHU8DXYpDTNExzev2RTx'
+            }
+    status = 200
+    return JsonResponse(responsr)
+# Create your views here.
